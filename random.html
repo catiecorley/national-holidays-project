@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Random Holiday Generator</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class='navbar-header' id="top-header">
+            <div class="row">
+                <a href="index.html" id="title">NATIONAL HOLIDAYS</a>
+            </div>
+        </div>
+        <div class="navbar-header" id="header">
+            <div class="row">
+                <div class="col-sm links">
+                    <a href='month.html'> Search a Month</a>
+                </div>
+                <div class="col-sm links">
+                    <a href='specific.html'>Search Specific Date</a>
+                    
+                </div>
+                <div class="col-sm links">
+                    <a href='random.html'>Random Generator</a>
+                </div>
+            </div>
+
+
+            <div id="random-generator">
+                <form id="random-form">
+                <p>Generate a Random Holiday:</p>
+                <button id="generator" type="submit" >Random Holiday!</button>
+            </form>
+            <p id="generated-date"></p>
+            <div id="seperate-scroll">
+            <ul id="random-holiday-list">
+    
+            </ul>
+</div>
+            </div>
+        </div>
+
+
+
+          
+        <script src="script.js"></script>
+        <script src="script-random.js"></script>
+    </body>
+</html>
